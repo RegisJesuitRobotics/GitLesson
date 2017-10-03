@@ -2,7 +2,11 @@
 public class Hello {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		int num = 0;
+	while (num < 1000){
+		System.out.println("YAES " + num);
+		num = num + 1;
+	}
 	}
 
 }
